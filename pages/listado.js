@@ -14,7 +14,6 @@ function Listado() {
           const url = `https://api.mercadolibre.com/sites/MLA/search?q=${valor}`
           const answer = await fetch(url);
           const result = await answer.json();
-          console.log(result)
           if (result.results.length === 0) {
             router.push('/404');
           }else{
