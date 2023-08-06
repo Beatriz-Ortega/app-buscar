@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #eeeeee;
+}
+
+.color_header {
+  background-color: #fff159;
+}
+.color_header .logo {
+  width: 200px;
+  height: 50px;
+}
+
+.inicio {
+  margin-top: 300px;
+}
+.inicio .card {
+  width: 250px;
+}
+.inicio .card .titulo {
+  text-align: center;
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .inicio .card {
+    width: 500px;
+  }
+  .inicio .card .titulo {
+    font-size: 30px;
+  }
+}
+
+.listado .card {
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  border-radius: 0px;
+  max-width: 600px;
+}
+.listado .card .titulo {
+  font-weight: 300;
+  line-height: 1.5;
+}
+.listado .card .precio {
+  font-size: 30px;
+  font-weight: 500;
+}
+.listado .card .status {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00a650;
+}
+.listado .card .boton {
+  text-decoration: none;
+  color: black;
+}
+
+.detalle {
+  background-color: white;
+}
+.detalle .status {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 14px;
+  font-weight: 400;
+}
+.detalle .titulo {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 600;
+  line-height: 1.18;
+}
+.detalle .precio_original {
+  font-weight: 300;
+  line-height: 1;
+  font-size: 20px;
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.55);
+}
+.detalle .precio {
+  font-weight: 300;
+  line-height: 1;
+  font-size: 36px;
+}
+.detalle .oferta {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00a650;
+}
+
+.error {
+  margin-top: 150px;
+}
+@media screen and (min-width: 768px) {
+  .error {
+    margin-top: 250px;
+  }
+}/*# sourceMappingURL=globals.css.map */
